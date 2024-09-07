@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Roles.sol": "Roles"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Roles.sol": {
+			"keccak256": "0xcb41dde08951a149e972bd572286e51b51698ee8ddcca93e2ad02a89b7bb8b53",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0aa149387d797eb425d2bd0f4a97a9f7e96ca1a8034ce9b01d6681e2cf8ca0d",
+				"dweb:/ipfs/QmPbhDkdZrRr2ee1D3CyVCcowuxWPdZKYnVRFi9fSKSjhE"
+			]
+		}
+	},
+	"version": 1
+}
