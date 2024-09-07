@@ -1,0 +1,160 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "DrIDs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "dr_id",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_drInfo_hash",
+						"type": "string"
+					}
+				],
+				"name": "addDrInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllDrs",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_id",
+						"type": "address"
+					}
+				],
+				"name": "getDr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isAdmin",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "id",
+						"type": "address"
+					}
+				],
+				"name": "isDr",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contract.sol": "Contract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Roles.sol": {
+			"keccak256": "0xcb41dde08951a149e972bd572286e51b51698ee8ddcca93e2ad02a89b7bb8b53",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0aa149387d797eb425d2bd0f4a97a9f7e96ca1a8034ce9b01d6681e2cf8ca0d",
+				"dweb:/ipfs/QmPbhDkdZrRr2ee1D3CyVCcowuxWPdZKYnVRFi9fSKSjhE"
+			]
+		},
+		"contracts/contract.sol": {
+			"keccak256": "0x4acc2e4bd1a2914785f2bd4cf0e91a727fc7c2dfb4433c8eb776a9bcd8116c38",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6687c913dd6617a215f65abd886bf2225f03f207ffef8a204a812253e5a89051",
+				"dweb:/ipfs/QmUiK7ruNNAhQo4yJ1UJbowoGDtcjFCaTPH1bLRBoFpMjm"
+			]
+		}
+	},
+	"version": 1
+}
